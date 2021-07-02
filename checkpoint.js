@@ -1,5 +1,5 @@
-var item = ['Pipoca', 'Macarrão', 'Carne', 'Feijão', 'Brigadeiro'];
-var temPadrao = [10, 8, 15, 12, 8]
+const item = ['Pipoca', 'Macarrão', 'Carne', 'Feijão', 'Brigadeiro'];
+const temPadrao = [10, 8, 15, 12, 8]
 
 let microondas = function(comida, tempoConsum){
     switch (comida) {
@@ -57,4 +57,3 @@ let microondas = function(comida, tempoConsum){
             console.log("Opção inválida selecionada!\nPrato Inexistente");
     }
 };
-
